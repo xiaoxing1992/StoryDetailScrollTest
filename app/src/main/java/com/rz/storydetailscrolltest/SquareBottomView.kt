@@ -87,10 +87,10 @@ class SquareBottomView @JvmOverloads constructor(
 
      tabB = viewWidth /  rightHeight
      B = atan(viewWidth / rightHeight)
-
-  */
+    */
 
     private fun initData() {
+        //反三角函数 求角度切值
         leftBezierAngle = atan(tiltHeight / getsWidth().toFloat())
         //angleB = atan(getsWidth().toFloat() / rightHeight)
         //
