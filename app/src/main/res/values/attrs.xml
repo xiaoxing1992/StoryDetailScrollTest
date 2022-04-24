@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SquareBView">
+        <attr name="sq_view_height" format="dimension|integer" />
+        <attr name="sq_right_height" format="dimension|integer" />
+        <attr name="sq_left_radius" format="dimension|integer" />
+        <attr name="sq_right_radius" format="dimension|integer" />
+    </declare-styleable>
+
+
+    <declare-styleable name="SquareBottomView">
+        <attr name="sb_view_height" format="dimension|integer" />
+        <attr name="sb_tilt_height" format="dimension|integer" />
+        <attr name="sb_left_radius_height" format="dimension|integer" />
+        <attr name="sb_right_radius_height" format="dimension|integer" />
+    </declare-styleable>
+
+</resources>
