@@ -18,6 +18,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".IndicatorTestActivity" />
+        <activity android:name=".DakaActivity" />
+        <activity android:name=".AnimationActivity" />
+        <activity android:name=".pga.PAGTestActivity" />
     </application>
 
 </manifest>
