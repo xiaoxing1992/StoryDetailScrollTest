@@ -4,18 +4,24 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.37447916666666664" />
+        <entry key="../../../layout/custom_preview.xml" value="0.37447916666666664" />
         <entry key="app/src/main/res/drawable/bg_flip.xml" value="0.2525" />
         <entry key="app/src/main/res/drawable/bg_test.xml" value="0.2525" />
+        <entry key="app/src/main/res/layout/activity_card_test.xml" value="0.11" />
         <entry key="app/src/main/res/layout/activity_daka.xml" value="0.17604166666666668" />
         <entry key="app/src/main/res/layout/activity_gift.xml" value="0.346875" />
         <entry key="app/src/main/res/layout/activity_inducator_test.xml" value="0.34791666666666665" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.34791666666666665" />
         <entry key="app/src/main/res/layout/activity_pag.xml" value="0.34791666666666665" />
         <entry key="app/src/main/res/layout/activity_v2.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/app_viewpager_indicator.xml" value="0.346875" />
+        <entry key="app/src/main/res/layout/card_item.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/card_item1.xml" value="0.34791666666666665" />
         <entry key="app/src/main/res/layout/include_large_drawee_view.xml" value="0.346875" />
         <entry key="app/src/main/res/layout/item_role_barrage.xml" value="0.34791666666666665" />
         <entry key="app/src/main/res/layout/item_role_barrage_empty.xml" value="0.34791666666666665" />
         <entry key="app/src/main/res/layout/pag_item.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/viewstub_role_card.xml" value="0.346875" />
         <entry key="app/src/main/res/layout/widget_item_daka_flip_view.xml" value="0.34791666666666665" />
       </map>
     </option>

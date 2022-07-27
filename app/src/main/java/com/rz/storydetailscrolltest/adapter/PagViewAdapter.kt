@@ -27,7 +27,6 @@ class PagViewAdapter(val context: Context) : RecyclerView.Adapter<PagViewAdapter
             binding.pagView.composition = pagFile1
             binding.pagView.setRepeatCount(0)
             binding.pagView.play()
-            binding.pagView.stop()
         }
 
         companion object {

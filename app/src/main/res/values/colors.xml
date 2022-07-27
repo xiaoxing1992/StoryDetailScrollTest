@@ -21,5 +21,5 @@
     <color name="fade_black_15_daynight">#26000000</color>
     <color name="fade_black_10_daynight">#1A000000</color>
     <color name="fade_black_5_daynight">#0D000000</color>
-    <color name="fade_black_3_daynight">#08000000</color>
+    <color name="fade_red_10_daynight">#1ACE0000</color>
 </resources>

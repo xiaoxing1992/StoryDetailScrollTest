@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="horizontal"
+        android:overScrollMode="never"
+        android:layout_marginTop="48dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/card_item" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/test_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="9sp" />
+    </FrameLayout>
+
+    <com.rz.storydetailscrolltest.view.RoleCardIndicator
+        android:id="@+id/hIndicator"
+        android:layout_width="120dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="2dp"
+        app:rc_bgColor="#1Affffff"
+        app:rc_indicatorColor="#99ffffff" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_tag_view"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="18dp"
+        android:nestedScrollingEnabled="false" />
+</LinearLayout>

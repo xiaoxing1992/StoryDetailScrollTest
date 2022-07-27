@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.rz.storydetailscrolltest.adapter.PagViewAdapter
 import com.rz.storydetailscrolltest.databinding.ActivityPagBinding
+import org.libpag.PAGFile
 
 class PAGTestActivity : AppCompatActivity() {
 
@@ -19,6 +20,8 @@ class PAGTestActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         _binding = ActivityPagBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+
 
         binding.recyclerView.apply {
             adapter = listAdapter
@@ -33,7 +36,10 @@ class PAGTestActivity : AppCompatActivity() {
 
 
         binding.btTest.setOnClickListener {
-
+            val pagFile1 = PAGFile.Load(assets, "light.pag")
+            binding.pagView.composition = pagFile1
+            binding.pagView.setRepeatCount(0)
+            binding.pagView.play()
             listAdapter.setList(mulist)
         }
     }

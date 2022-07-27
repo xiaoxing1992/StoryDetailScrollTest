@@ -2,8 +2,8 @@ package com.rz.storydetailscrolltest
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.rz.storydetailscrolltest.card.CardScrollActivity
 import com.rz.storydetailscrolltest.databinding.ActivityV2Binding
-import com.rz.storydetailscrolltest.pga.PAGTestActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,8 +16,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btTest.setOnClickListener {
-            IndicatorTestActivity.start(this)
+            CardScrollActivity.start(this)
             //PAGTestActivity.start(this)
+        }
+
+        binding.btTest2.setOnClickListener {
+            DakaActivity.start(this)
         }
     }
 }

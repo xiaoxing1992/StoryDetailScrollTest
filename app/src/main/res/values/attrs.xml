@@ -33,4 +33,16 @@
         <attr name="ps_background_color" format="color" />
         <attr name="ps_radius" format="dimension" />
     </declare-styleable>
+
+    <declare-styleable name="RoleCardIndicator">
+        <attr name="rc_bgColor" format="color"/>
+        <attr name="rc_indicatorColor" format="color"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="LimitHeightRecyclerView">
+        <attr name="lhr_max_height" format="dimension" />
+        <attr name="lhr_min_height" format="dimension" />
+
+    </declare-styleable>
 </resources>

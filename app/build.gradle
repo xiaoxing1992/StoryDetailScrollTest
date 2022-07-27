@@ -52,4 +52,6 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0"
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.5.0"
     implementation 'com.tencent.tav:libpag:4.0.5.20'
+    implementation 'li.etc:SkyCards:1.0.0'
+
 }

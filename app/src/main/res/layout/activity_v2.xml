@@ -9,8 +9,15 @@
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:layout_margin="16dp"
-        android:text="测试" />
+        android:text="测试1" />
 
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_test2"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_margin="16dp"
+        android:text="测试2" />
 </LinearLayout>
 
 

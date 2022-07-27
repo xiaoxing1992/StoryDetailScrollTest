@@ -23,6 +23,7 @@
         <activity android:name=".DakaActivity" />
         <activity android:name=".AnimationActivity" />
         <activity android:name=".pga.PAGTestActivity" />
+        <activity android:name=".card.CardScrollActivity" />
     </application>
 
 </manifest>

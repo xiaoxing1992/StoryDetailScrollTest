@@ -5,8 +5,10 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.rz.storydetailscrolltest.adapter.RoleBarrageAdapter
 import com.rz.storydetailscrolltest.databinding.ActivityDakaBinding
+import com.skyplatanus.crucio.recycler.decoration.ItemSpaceDecoration
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.launch
@@ -38,13 +40,10 @@ class DakaActivity : AppCompatActivity() {
             setOnTouchListener { _, _ ->
                 true
             }
-            layoutManager = RoleBarrageLayoutManager().apply {
-                horizontalCustomGap = 8.dp()
-                verticalCustomGap = 0
-            }
+            layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
             adapter = roleBarrageAdapter
+            addItemDecoration(ItemSpaceDecoration(10.dp()))
         }
-
         roleBarrageAdapter.replace(list)
 
 
@@ -64,8 +63,8 @@ class DakaActivity : AppCompatActivity() {
 
         loopJob = lifecycleScope.launch {
             FlowTimer.interval(10, 30).catch { }.collect {
-                    binding.recyclerView.smoothScrollBy(10, 0)
-                }
+                binding.recyclerView.smoothScrollBy(10, 0)
+            }
         }
     }
 
